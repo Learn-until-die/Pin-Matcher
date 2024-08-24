@@ -1,0 +1,76 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(32, 32, 82, 0.9);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:  sans-serif;
+}
+.container{
+  background-color: rgba(32, 32, 128, 0.9);
+  height: 500px;
+  width: 400px;
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+.divbutton{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(82, 94, 252);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30%;
+}
+.divbuttons{
+  height: 300px;
+  width: 300px;
+  margin-top: 10%;
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  grid-template-columns:1fr 1fr  1fr ;
+
+}
+.button{
+  width: 60px;
+  height: 60px;
+  margin:0 auto;
+  background-color: rgba(3, 3, 3, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+#input{
+  width: 300px;
+  padding: 10px;
+  margin-top:20px;
+}
+#enput{
+  width: 300px;
+  padding: 10px;
+  margin-top:20px;
+}
+button{
+  background-color: rgb(7, 7, 233);
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 40px;
+  color: white;
+  font-size: 16px;
+}
